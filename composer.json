@@ -1,0 +1,20 @@
+{
+    "name": "bbldn/jsonrpc-bundle",
+    "autoload": {
+        "psr-4": {
+            "BBLDN\\JSONRPCBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Boris Bobol",
+            "email": "bobol.boris@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+        "symfony/http-kernel": "^5.0|^6.0",
+        "symfony/dependency-injection": "^5.0|^6.0"
+    }
+}
